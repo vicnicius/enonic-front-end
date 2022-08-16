@@ -1,0 +1,30 @@
+{
+  "name": "next-hmdb",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx next dev",
+    "prod": "npm run build && npm run start",
+    "build": "npx next build",
+    "start": "npx next start -p 4242",
+    "lint": "npx next lint"
+  },
+  "dependencies": {
+    "html-react-parser": "^3.0.1",
+    "next": "^12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "unescape": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.4",
+    "@types/next": "^9.0.0",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.4",
+    "prettier": "^2.7.1",
+    "typescript": "4.7.4"
+  }
+}
